@@ -30,12 +30,12 @@ FlaskDurationInit := []
 ;
 ; Note: Delete the last line (["e"]), or set value to 0, if you don't use a buff skill
 ;----------------------------------------------------------------------
-FlaskDurationInit[1] := 0
-FlaskDurationInit[2] := 0
-FlaskDurationInit[3] := 0
-FlaskDurationInit[4] := 0
-FlaskDurationInit[5] := 0
-FlaskDurationInit["e"] := 4500	; I use Steelskin here
+FlaskDurationInit[1] := 3300
+FlaskDurationInit[2] := 5300
+FlaskDurationInit[3] := 8500
+FlaskDurationInit[4] := 5200
+FlaskDurationInit[5] := 7200
+FlaskDurationInit["e"] := 0	; I use Steelskin here
 FlaskDurationInit["r"] := 0	; I use Molten Shell here
 
 FlaskDuration := []
